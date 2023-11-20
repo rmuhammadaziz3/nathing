@@ -16,3 +16,11 @@ h2{
     color:brown ;
     text-transform: uppercase;
 }
+.main{
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 33% 66%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 72% 27%);
+}
